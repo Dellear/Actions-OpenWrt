@@ -17,3 +17,4 @@
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/V2RaySSR/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/V2RaySSR/small' feeds.conf.default
+sed -i '$a src-git rosy https://github.com/rosywrt/luci.git' feeds.conf.default
